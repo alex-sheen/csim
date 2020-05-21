@@ -57,3 +57,4 @@ These instructions will get you a copy of the project up and running on your loc
 ## Built With
 * [Atom](https://atom.io/) – open-source text editor
 * [GCC](https://gcc.gnu.org/) – C compiler
+* [Valgrind](https://valgrind.org/) – memory debugging tool
