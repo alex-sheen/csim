@@ -20,3 +20,4 @@ csim: csim.c cachelab.c cachelab.h
 clean:
 	rm -rf *.o
 	rm -f csim
+	rm -rf csim.dSYM

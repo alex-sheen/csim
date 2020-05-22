@@ -209,12 +209,12 @@ void simulate() {
     char operation;
     char saddress[80];
     long address, tbits, sbits;
-    char* line;
+    char* fline;
     while (fgets(buffer, sizeof(buffer), file)) {
         if (buffer[0] == ' ') {
-            line = strtok(buffer, "\n");
+            fline = strtok(buffer, "\n");
             if (vflag) {
-                printf("%s ", line);
+                printf("%s ", fline);
             }
             sscanf(buffer, " %c %s", &operation, saddress);
             address = strtol(saddress, NULL, HEX);
